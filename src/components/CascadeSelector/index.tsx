@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react'
-import './CascadeSelector.scss'
+import './index.less'
 
 type Nodes = Array<{ code: string; name: string; children?: Nodes }>
 type Node = { code: string; name: string; children?: Nodes }
